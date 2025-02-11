@@ -12,5 +12,5 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 
 sudo apt install -y npm xclip
-git clone https://github.com/jamesonhm/nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/jamesonhm/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 
